@@ -14,6 +14,14 @@
 > 
 > —[Standard Ebooks](https://standardebooks.org/contribute/producing-an-ebook-step-by-step) (kind of)
 
+> [!IMPORTANT]
+> Fetch from origin before making any changes to your code!
+> If you've accidentally made changes without fetching: Fetch origin, then rebase your local commits on top of the remote changes. That replays your commits after the new upstream work, so history stays linear. :copilot:
+> ```bash
+> git fetch origin
+> git rebase origin/main
+> ```
+
 ## Reverting changes :copilot:
 
 Q. If I created and pushed commit 1, 2 and 3, and want to return my repo to its state at commit 1, what should i do?
