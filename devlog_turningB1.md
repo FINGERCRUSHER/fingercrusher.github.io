@@ -10,8 +10,9 @@ There's an epub of the novelingua Turning translation on zlib, which is great bu
 
 And I aim to fix that!
 
-## What happened today
+The following is a record of what happened today.
 
+## Setting up SSH for Git
 Set up SSH for the first time! Followed instructions by [W3Schools](https://www.w3schools.com/git/git_security_ssh.asp). Things went okay, except: 
 
 1 - My username has spaces, so instead of `eval $(ssh-agent -s)`, I had to run:
@@ -30,6 +31,7 @@ ssh-keygen -t ed25519 -C "your@email.com"
 ```
 
 and asked for a file location, you have to type the address out manually without using arrow keys, lest the arrow keys count as part of the address. So I had to type the entire file location letter-by-letter, *WITHOUT* COPYING AND PASTING (actually that'd probably be fine, but I did everything myself just to be sure). It ended up taking 3 tries. The woes!
+
 
 ## What will happen next
 
