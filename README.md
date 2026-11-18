@@ -11,7 +11,8 @@
 
 > [!TIP]
 > **Commit early and often!**. Commits are **easy and free**—it’s perfectly acceptable to have many very small commits, as long as each one is a single logical unit.
-> [Standard Ebooks](https://standardebooks.org/contribute/producing-an-ebook-step-by-step) (kind of)
+> 
+> —[Standard Ebooks](https://standardebooks.org/contribute/producing-an-ebook-step-by-step) (kind of)
 
 ## Reverting changes :copilot:
 
